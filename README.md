@@ -1,6 +1,7 @@
 # Retrieving-Top-News-Articles-and-its-summary
 
 ## Requirements
+- Python 3.6.8
 - Pip install requests
 - pip install nltk
 - pip install textblob
