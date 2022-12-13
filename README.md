@@ -22,7 +22,8 @@
 ## To Run the project open the below link in browser and select Number of articles you want
 
 - http://localhost/NewsPaper/
-- ![image](https://user-images.githubusercontent.com/65524886/207134766-a13ed787-7c63-4c36-9696-b15c92ecc5b2.png)
-- ![image](https://user-images.githubusercontent.com/65524886/207134976-86c2ec76-0ed4-49f1-beff-1e20f46888d1.png)
+- ![image](https://user-images.githubusercontent.com/65524886/207412202-dbfef7b7-9de7-4226-a357-1ebb2e3a9d8c.png)
+- ![image](https://user-images.githubusercontent.com/65524886/207413010-abf80508-dec2-40f2-b67c-c3ec7551f8d1.png)
+- ![image](https://user-images.githubusercontent.com/65524886/207413487-584a046a-c7dd-49b2-ab2e-446ee206da83.png)
 
 
