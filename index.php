@@ -8,7 +8,7 @@
 	<div class="row">
 		<div class="col-sm-3"></div>
 		<div class="col-sm-5">
-			<h4><b>Get Top News Articles by Category / Keyword</b></h4>
+			<h4><center><b>Get Top News Articles by<br/>Category / Keyword</b></center></h4>
 			<form action="index.php" method="post">
 				<div class="form-group">
 					<input type="text" name="keyword" value="" placeholder="Search Keyword" class="form-control" >
@@ -64,13 +64,27 @@ if (!empty($_POST)) {
 	$count=$_POST["count"];
 	$fromdate=$_POST["fromdate"];
 	$todate=$_POST["todate"];
-	
-	echo "<center><h2>Search Results</h2></center>";
-	echo "<center><h4><b>Keyword:</b> $keyword</h4></center>";
-	echo "<center><h4><b>Category:</b> $category</h4></center>";
-	echo "<center><h4><b>From Date:</b> $fromdate</h4></center>";
-	echo "<center><h4><b>To Date:</b> $todate</h4></center>";
-	
+?>
+<div class="container">
+	<div class="row">
+		<div class="col-sm-2"></div>
+		<div class="col-sm-8">
+			<table class="table table-hover table-bordered" >
+				<tr>
+					<th>Category</th><td><?php echo $category; ?></td>
+					<th>From Date</th><td><?php echo $fromdate; ?></td>
+				</tr>
+				<tr>
+					<th>Keyword</th><td><?php echo $keyword; ?></td>
+					<th>To Date</th><td><?php echo $todate; ?></td>
+				</tr>
+			</table>
+		</div>
+		<div class="col-sm-2"></div>
+	</div>
+</div>
+<?php
+		
 	if(!strcmp($keyword,"")){
 		$keyword="None";
 	}
